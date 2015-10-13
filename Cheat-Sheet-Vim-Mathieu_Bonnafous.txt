@@ -57,4 +57,21 @@ que nous souhaitons effacer, puis taper "d$".
 
 Pour répéter un mouvement ---> "<nombre> <mouvement>".
 Par exemple ---> "2w" : déplace le curseur 2 mots vers l'avant.
+		 "3e" : déplace le curseur à la fin du 3ème mot vers l'avant.
 
+"0" permet de se déplacer jusqu'au début de la ligne.
+
+
+### Utiliser un quantificateur pour effacer plus ###
+
+Pour effacer un certain nombre de mots, on peut utiliser "d <nombre_de_mots_à_effacer> w".
+Par exemple, dans la phrase : "Toto et Titi mangent", si nous plaçons le curseur sur le "e" de "et" et que nous tapons "d1w", le mot "et"
+sera effacé.
+
+
+### Opérez sur des lignes ###
+
+Pour effacer une ligne compléte, nous utilisons "dd".
+
+
+###  L'annulation ###
