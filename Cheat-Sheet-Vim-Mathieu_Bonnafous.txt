@@ -55,4 +55,6 @@ que nous souhaitons effacer, puis taper "d$".
 
 ### Utiliser un quantificateur avec un mouvement ###
 
+Pour répéter un mouvement ---> "<nombre> <mouvement>".
+Par exemple ---> "2w" : déplace le curseur 2 mots vers l'avant.
 
