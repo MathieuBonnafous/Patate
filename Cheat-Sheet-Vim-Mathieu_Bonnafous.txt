@@ -1,0 +1,58 @@
+### Déplacement du curseur ###
+
+Haut : k
+Bas : j
+Droite : l
+Gauche : h
+
+
+### Sortie de Vim ###
+
+"Echap", puis ":q!" pour quitter sans sauvegarder les changements.
+
+
+### Edition de texte - Effacement ###
+
+Pour effacer un caractère, "x" sur le caractère que nous souhaitons supprimer.
+
+
+### Edition de texte - Insertion ###
+
+Pour insérer un caractère, taper sur "i" après l'endroit où nous voulons insérer le texte.
+
+
+### Edition de texte - Ajouter ###
+
+La touche "a" permet d'insérer du texte après le caractère courant.
+
+
+### Editer un fichier ###
+
+Pour créer un fichier avec Vim : "vim <nom_du_fichier>".
+
+Pour enregistrer le fichier avec ses changements et sortir de Vim : "Echap", puis ":wq".
+
+
+### Commandes d'effacement ###
+
+Pour effacer un mot, placez-vous sur la première lettre celui-ci et utilisez "Echap" (pour sortir du mode "Insertion") puis  "dw".
+
+
+### Plus de commandes d'effacement ###
+
+Pour effacer jusqu'à la fin de la ligne, il faut déplacer le curseur juste avant le premier caractère de la ligne
+que nous souhaitons effacer, puis taper "d$".
+
+
+### A propos des opérateurs et des mouvements ###
+
+"d" est l'opérateur d'effacement. Cet opérateur sera suivit la plupart du temps par un "mouvement".
+
+"w" ---> jusqu'au début du prochain mot, premier caractère exclu.
+"e" ---> jusqu'à la fin du mot courant, dernier caractère exclu.
+"$" ---> jusqu'à la fin de la ligne, dernier caractère inclus.
+
+
+### Utiliser un quantificateur avec un mouvement ###
+
+
