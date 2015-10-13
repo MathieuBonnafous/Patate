@@ -75,3 +75,7 @@ Pour effacer une ligne compléte, nous utilisons "dd".
 
 
 ###  L'annulation ###
+
+Pour revenir à la dernière modification ---> "u"
+Pour récupérer la dernière ligne ---> "U".
+Pour annuler une annulation ---> "CTRL + R".
